@@ -1,0 +1,55 @@
+@font-face {
+    font-family: 'font';
+    src: url('../fonts/VAG\ Rounded\ Black.ttf');
+  }
+
+body{
+    border: 0;
+    margin: 0;
+    height: 100vh;
+    max-width: 100vw;
+    font-family: 'font';
+}
+
+header, button, .banner, .foot {
+    color: white;
+    font-family: 'font';
+}
+
+header{
+    background-color: #D6001C;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin: 0;
+    width: 100%;
+    height: 90px;
+    border-bottom: 4px solid #fcb900;
+}
+
+.brand{
+    display: flex;
+    flex-direction: row;
+    align-items: flex-end;
+    gap: 5px;
+    font-size: 3rem;
+}
+
+.logo{
+    display: flex;
+    width: 4rem;
+    height: 5rem;
+}
+
+.btns{
+    display: flex;
+    gap: 1rem;
+}
+
+
+button{
+    background: none;
+    border: none;
+    font-size: 1.5rem;
+    cursor: pointer;
+}
