@@ -44,6 +44,10 @@ p{
     width: 12rem;
 }
 
+.orderBtn:hover{
+    background-color: #FF620F;
+}
+
 .foot{
     margin: 2rem;
     display: flex;
